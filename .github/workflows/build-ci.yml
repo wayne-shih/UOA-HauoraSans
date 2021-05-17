@@ -33,11 +33,11 @@ jobs:
           update-setuptools: "true"
 #
       - name: Build static fonts
-        run: sources/build-statics.sh
+        run: source/build-statics.sh
       - name: Build variable fonts
-        run: sources/build-vf.sh
+        run: source/build-vf.sh
       - name: Build web fonts
-        run: sources/build-webfonts.sh
+        run: source/build-webfonts.sh
 #
       - name: Push fonts
         run: |

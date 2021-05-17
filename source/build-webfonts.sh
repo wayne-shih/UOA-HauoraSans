@@ -10,7 +10,7 @@ WEB_DIR=./fonts/web
 echo ".
 CLEAN FONTS FOLDERS
 ."
-rm -rf ./sources/build-statics.sh
+rm -rf ./source/build-statics.sh
 mkdir -p $WEB_DIR
 
 echo ".
