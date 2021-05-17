@@ -28,7 +28,7 @@ jobs:
           update-wheel: "true"
           update-setuptools: "true"
       - name: Build static fonts
-        run: sources/build-statics.sh
+        run: source/build-statics.sh
       - name: Font Bakery CI static ttf
         uses: f-actions/font-bakery@v1
         with:

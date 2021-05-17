@@ -18,12 +18,12 @@ mkdir -p $TT_DIR $OT_DIR
 echo ".
 GENERATING STATIC TTF
 ."
-fontmake -g ./sources/$thisFont.glyphs -i -o ttf --output-dir $TT_DIR
+fontmake -g ./source/$thisFont.glyphs -i -o ttf --output-dir $TT_DIR
 
 echo ".
 GENERATING STATIC OTF
 ."
-fontmake -g ./sources/$thisFont.glyphs -i -o otf --output-dir $OT_DIR
+fontmake -g ./source/$thisFont.glyphs -i -o otf --output-dir $OT_DIR
 
 #Post-processing fonts ======================================================
 #Requires gftools https://github.com/googlefonts/gftools

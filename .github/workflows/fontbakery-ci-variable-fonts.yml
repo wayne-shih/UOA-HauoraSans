@@ -28,7 +28,7 @@ jobs:
           update-wheel: "true"
           update-setuptools: "true"
       - name: Build variable fonts
-        run: sources/build-vf.sh
+        run: source/build-vf.sh
       - name: Font Bakery CI variable fonts
         uses: f-actions/font-bakery@v1
         with:

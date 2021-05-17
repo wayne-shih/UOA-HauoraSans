@@ -15,7 +15,7 @@ mkdir -p $VF_DIR
 echo ".
 GENERATING VARIABLE
 ."
-fontmake -g ./sources/$thisFont.glyphs -o variable --output-path $VF_DIR/$thisFont[wght].ttf
+fontmake -g ./source/$thisFont.glyphs -o variable --output-path $VF_DIR/$thisFont[wght].ttf
 
 #Post-processing fonts ======================================================
 #Requires gftools https://github.com/googlefonts/gftools
